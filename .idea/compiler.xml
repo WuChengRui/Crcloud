@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-comsumer-order80" />
+        <module name="cloud-comsumer-order80-opFeign" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-server-eureka7001" />
+        <module name="cloud-server-eureka7002" />
+        <module name="provider-payment8002" />
+        <module name="seata-order-server2001" />
+        <module name="server-eureka7002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="cloud-provider-payment8001 (1)" target="1.8" />
+      <module name="cloud-provider-payment8002" target="1.8" />
+      <module name="cloud-server-eureka7001 (1)" target="1.8" />
+      <module name="cloud-server-eureka7002" target="1.8" />
+      <module name="er" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-api-commons" options="-extdirs E:\Java\CrCloud\cloud-api-commons/src/main/webapp/WEB-INF/lib" />
+      <module name="cloud-comsumer-order80" options="-extdirs E:\Java\CrCloud\cloud-comsumer-order80/src/main/webapp/WEB-INF/lib" />
+      <module name="cloud-comsumer-order80-opFeign" options="-extdirs E:\Java\CrCloud\cloud-comsumer-order80-opFeign/src/main/webapp/WEB-INF/lib" />
+      <module name="cloud-provider-payment8001" options="-extdirs E:\Java\CrCloud\cloud-provider-payment8001/src/main/webapp/WEB-INF/lib" />
+      <module name="cloud-provider-payment8002" options="-extdirs E:\Java\CrCloud\cloud-provider-payment8002/src/main/webapp/WEB-INF/lib" />
+      <module name="cloud-server-eureka7001" options="-extdirs E:\Java\CrCloud\cloud-server-eureka7001/src/main/webapp/WEB-INF/lib" />
+      <module name="cloud-server-eureka7002" options="-extdirs E:\Java\CrCloud\cloud-server-eureka7002/src/main/webapp/WEB-INF/lib" />
+      <module name="er" options="-extdirs E:\Java\CrCloud\er/src/main/webapp/WEB-INF/lib" />
+      <module name="provider-payment8002" options="-extdirs E:\Java\CrCloud\provider-payment8002/src/main/webapp/WEB-INF/lib" />
+      <module name="seata-order-server2001" options="-extdirs E:\Java\CrCloud\seata-order-server2001/src/main/webapp/WEB-INF/lib" />
+      <module name="server-eureka7002" options="-extdirs E:\Java\CrCloud\server-eureka7002/src/main/webapp/WEB-INF/lib" />
+    </option>
+  </component>
+</project>
